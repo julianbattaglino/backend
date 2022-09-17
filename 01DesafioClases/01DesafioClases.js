@@ -7,7 +7,7 @@ class User {
     }
 
     getFullName() {
-        return console.log(`${this.name} ${this.lastname}`)
+        return console.log("Function getFullName:", `${this.name} ${this.lastname}`)
     }
 
     addPet(name) {
@@ -15,7 +15,7 @@ class User {
     }
 
     countPets() {
-        return console.log(this.pets.length)
+        return console.log("Function countPets:", this.pets.length)
     }
 
     addBook(name, author) {
@@ -35,4 +35,4 @@ usuario1.countPets()
 usuario1.addBook("El Silmarillion", "J. R. R. Tolkien")
 
 console.log(usuario1)
-console.log(usuario1.getBookNames())
+console.log("Funcion getBookNames", usuario1.getBookNames())
